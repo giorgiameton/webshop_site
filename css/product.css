@@ -191,7 +191,17 @@ main a {
   font-weight: bolder;
   justify-self: right;
 }
+/*buttons*/
 .buttons {
   grid-row: 6/7;
   grid-column: 1/3;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.buttons p {
+  background-color: #ffb564;
+  color: white;
+  text-align: center;
+  padding: 5%;
+  margin-top: 5%;
 }
