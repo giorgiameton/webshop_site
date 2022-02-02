@@ -37,7 +37,7 @@ header {
   top: 10%;
   width: 100%;
   display: grid;
-  grid-template-rows: 1.5fr 1fr;
+  grid-template-rows: auto auto;
 }
 #navbar nav {
   display: grid;
@@ -238,7 +238,7 @@ main a {
 
   /*main*/
   main {
-    margin-top: -10%;
+    margin-top: -12%;
   }
   h1 {
     font-size: 4vw;
@@ -251,6 +251,7 @@ main a {
     font-size: 1.5vw;
   }
   main ul {
+    margin-top: 2%;
     display: grid;
     grid-template-columns: repeat(3, auto);
     column-gap: 10%;
@@ -258,5 +259,51 @@ main a {
   }
   .price {
     font-size: 2vw;
+  }
+}
+
+/*big screen*/
+@media only screen and (min-width: 100px) {
+  #logo {
+    grid-column: 1/2;
+    width: 40%;
+  }
+  #menu {
+    width: 12%;
+  }
+  #navbar a {
+    font-size: 1.2vw;
+  }
+  #navbar p {
+    margin-top: 2%;
+  }
+
+  /*burger menu*/
+  #popUp {
+    row-gap: 60%;
+    padding-bottom: 15%;
+  }
+  #popUp a {
+    font-size: 1.5vw;
+  }
+  #logo-negative {
+    width: 40%;
+  }
+
+  /*main*/
+  main {
+    margin-top: -12%;
+  }
+  h1 {
+    font-size: 2.7vw;
+  }
+  h2 {
+    font-size: 2vw;
+  }
+  p {
+    font-size: 1vw;
+  }
+  .price {
+    font-size: 1.5vw;
   }
 }
