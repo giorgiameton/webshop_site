@@ -222,3 +222,49 @@ main a p:active {
     column-gap: 5%;
   }
 }
+
+/*big screen*/
+@media only screen and (min-width: 100px) {
+  #navbar {
+    top: 10%;
+  }
+  #logo {
+    grid-column: 1/2;
+    width: 40%;
+  }
+  #menu {
+    width: 12%;
+  }
+  #navbar a {
+    font-size: 1.2vw;
+  }
+  #navbar p {
+    margin-top: 2%;
+  }
+
+  /*burger menu*/
+  #popUp {
+    row-gap: 60%;
+    padding-bottom: 15%;
+  }
+  #popUp a {
+    font-size: 1.5vw;
+  }
+  #logo-negative {
+    width: 40%;
+  }
+
+  /*main*/
+  main {
+    margin-top: -15%;
+  }
+  h1 {
+    font-size: 3vw;
+  }
+  p {
+    font-size: 1.7vw;
+  }
+  main ul {
+    grid-template-columns: repeat(3, auto);
+  }
+}
