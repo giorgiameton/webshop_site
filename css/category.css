@@ -27,10 +27,10 @@ header {
 }
 #navbar {
   position: absolute;
-  top: 0%;
+  top: 10%;
   width: 100%;
   display: grid;
-  grid-template-rows: 1.5fr 1fr;
+  grid-template-rows: auto auto;
 }
 #navbar nav {
   display: grid;
@@ -159,4 +159,50 @@ main a p:active {
   background-color: #faabfa;
   padding: 0% 0 0% 2%;
   opacity: 40%;
+}
+
+/*small horizontal screens*/
+
+@media only screen and (min-width: 550px) {
+  #navbar {
+    top: 20%;
+  }
+  #logo {
+    grid-column: 1/2;
+    width: 60%;
+    align-self: center;
+    justify-self: left;
+  }
+  #menu {
+    width: 15%;
+  }
+  #navbar a {
+    font-size: 1.5vw;
+  }
+  #navbar p {
+    margin: 0;
+  }
+
+  /*burger menu*/
+  #popUp {
+    row-gap: 50%;
+    padding-bottom: 20%;
+  }
+  #popUp nav {
+    grid-column: 2/3;
+  }
+  #popUp ul {
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  #popUp li {
+    padding-top: 5%;
+  }
+  #popUp a {
+    font-size: 2vw;
+  }
+  #logo-negative {
+    width: 50%;
+  }
 }
