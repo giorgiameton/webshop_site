@@ -30,7 +30,7 @@ header {
 #navbar {
   position: absolute;
   top: 10%;
-  left: -10%;
+
   width: 100%;
   display: grid;
   grid-template-rows: 1.5fr 1fr;
@@ -58,7 +58,7 @@ header {
 
 #navbar a {
   color: #ffb564;
-  visibility: hidden;
+  font-size: 3.5vw;
 }
 #navbar p {
   font-size: 4vw;
