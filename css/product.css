@@ -205,7 +205,14 @@ main a {
   padding: 5%;
   margin-top: 5%;
 }
-
+.buttons p:hover {
+  background-color: #faabfa;
+}
+.buttons p:active {
+  background-color: white;
+  border: solid #404040;
+  color: #404040;
+}
 @media only screen and (min-width: 550px) {
   #logo {
     grid-column: 1/2;
