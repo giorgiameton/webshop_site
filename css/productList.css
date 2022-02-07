@@ -263,7 +263,7 @@ main a {
 }
 
 /*big screen*/
-@media only screen and (min-width: 100px) {
+@media only screen and (min-width: 1000px) {
   #logo {
     grid-column: 1/2;
     width: 40%;
