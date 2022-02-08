@@ -13,20 +13,6 @@ function handleProductList(data) {
   data.forEach(showProduct);
 }
 
-/**
- <li>
-          <a href="product.html">
-            <div class="product">
-              <p class="sale">55% off</p>
-            </div></a
-          >
-          <div class="productText">
-            <p class="soldOut">SOLD OUT</p>
-            <p class="price">1299DKK</p>
-          </div>
-        </li>
-  */
-
 function showProduct(product) {
   console.log(product);
   //grab template
@@ -34,6 +20,11 @@ function showProduct(product) {
   //clone it
   const clone = template.cloneNode(true);
   //change content
+  //changing href to make the product page dynamic
+  clone
+    .querySelector("a")
+    .setAttribute("href", `product.html?id=${product.id}`);
+
   clone.querySelector(".brand").textContent = product.brandname;
   clone.querySelector(".productName").textContent = product.productdisplayname;
   clone.querySelector(
