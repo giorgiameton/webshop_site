@@ -148,12 +148,16 @@ main ul {
 }
 main li {
   margin-bottom: 10%;
+  background-color: #fffcf8;
+  padding: 2%;
 }
 .product {
   aspect-ratio: 0.75/1;
   background-image: url(https://kea-alt-del.dk/t7/images/webp/640/1525.webp);
   background-size: cover;
   background-position: center;
+  width: 100%;
+  height: auto;
 
   display: grid;
   align-items: end;
@@ -170,7 +174,6 @@ main a {
 .productText {
   margin-top: 5%;
   display: grid;
-  grid-template-rows: repeat(5, auto);
   grid-template-columns: auto auto;
 }
 .soldOut {
@@ -186,7 +189,7 @@ main a {
   grid-column: 1/3;
 }
 .price {
-  grid-row: 5/6;
+  grid-row: 6/7;
   grid-column: 2/3;
   margin-top: 3%;
 
@@ -195,10 +198,16 @@ main a {
 }
 .newPrice {
   color: #60a8ec;
+  grid-row: 6/7;
+  grid-column: 2/3;
+  margin-top: 3%;
+
+  font-weight: bolder;
+  justify-self: right;
 }
 /*small horizontal screens*/
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 650px) {
   #logo {
     grid-column: 1/2;
     width: 60%;
@@ -259,13 +268,19 @@ main a {
     column-gap: 10%;
     row-gap: 5%;
   }
+  main li:hover {
+    transform: scale(1.1, 1.1);
+  }
   .price {
     font-size: 2vw;
+  }
+  .product {
+    margin: 0%;
   }
 }
 
 /*big screen*/
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
   #logo {
     grid-column: 1/2;
     width: 40%;
@@ -295,6 +310,13 @@ main a {
   /*main*/
   main {
     margin-top: -12%;
+  }
+  main ul {
+    row-gap: 0%;
+  }
+  main li {
+    height: 50%;
+    width: auto;
   }
   h1 {
     font-size: 2.7vw;
