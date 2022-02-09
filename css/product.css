@@ -152,6 +152,7 @@ main li {
   background-image: url(https://kea-alt-del.dk/t7/images/webp/640/1525.webp);
   background-size: cover;
   background-position: center;
+  width: 90%;
 
   display: grid;
   align-items: end;
@@ -216,7 +217,7 @@ main a {
   border: solid #404040;
   color: #404040;
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 650px) {
   #logo {
     grid-column: 1/2;
     width: 60%;
@@ -263,20 +264,45 @@ main a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 15%;
+    align-items: top;
+  }
+  .product {
+    height: 80%;
+    width: auto;
   }
   h1 {
     font-size: 3.5vw;
   }
-  p {
+  .soldOut {
     font-size: 2vw;
+    margin: 0;
+  }
+  p {
+    font-size: 1.5vw;
   }
   .price {
     font-size: 2.5vw;
   }
+  .productText {
+    margin-top: 0;
+    height: 80%;
+  }
+
+  /*buttons*/
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5%;
+    margin: 0;
+  }
+  .buttons p {
+    margin: 0;
+  }
 }
 
 /*big screen*/
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
   #logo {
     grid-column: 1/2;
     width: 40%;
@@ -311,8 +337,11 @@ main a {
     font-size: 2.7vw;
     margin: 0;
   }
-  p {
+  .soldOut {
     font-size: 1.5vw;
+  }
+  p {
+    font-size: 1vw;
     margin: 0;
   }
   .brand {
@@ -320,5 +349,12 @@ main a {
   }
   .price {
     font-size: 1.7vw;
+  }
+  .product {
+    height: 60%;
+    width: auto;
+  }
+  .productText {
+    height: 60%;
   }
 }
