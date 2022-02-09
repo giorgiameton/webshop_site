@@ -1,3 +1,7 @@
+/*const urlParams = new URLSearchParams(window.location.search);
+const category = urlParams.get("category");
+const url = "https://kea-alt-del.dk/t7/api/products/" + category;*/
+
 const url = "https://kea-alt-del.dk/t7/api/products";
 
 fetch(url)
@@ -24,7 +28,10 @@ function showProduct(product) {
   clone
     .querySelector("a")
     .setAttribute("href", `product.html?id=${product.id}`);
-
+  //bradcrumbs and title
+  document.querySelector(".categoryNameB").textContent = product.category;
+  document.querySelector("h1").textContent = product.category;
+  //product info
   clone.querySelector(".brand").textContent = product.brandname;
   clone.querySelector(".productName").textContent = product.productdisplayname;
   clone.querySelector(

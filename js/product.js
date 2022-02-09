@@ -10,6 +10,11 @@ fetch(url)
 //populate the page
 function showProduct(product) {
   console.log(product);
+  //bradcrumbs
+  document.querySelector(".productNameB").textContent =
+    product.productdisplayname;
+  document.querySelector(".categoryNameB").textContent = `${product.category}>`;
+  //product info
   document.querySelector(".product").src = product.brandname;
   document.querySelector(".brand").textContent = product.brandname;
   document.querySelector(".productName").textContent =
