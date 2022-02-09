@@ -41,9 +41,13 @@ function showProduct(product) {
   }
 
   if (product.discount) {
+    // console.log(true);
     clone.querySelector("#onSale").classList.add("sale");
     clone.querySelector("#onSale").textContent = `${product.discount} % off`;
-    //clone.querySelector(".price").textContent = `Now
+    clone.querySelector(".price").classList.add("newPrice");
+    clone.querySelector(".price").textContent =
+      Math.ceil(product.price - (product.price / 100) * product.discount) +
+      " DKK";
   }
   //grab parent
   const parent = document.querySelector("main ul");

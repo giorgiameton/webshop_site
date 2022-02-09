@@ -191,6 +191,9 @@ main a {
   font-weight: bolder;
   justify-self: right;
 }
+.newPrice {
+  color: #faabfa;
+}
 /*buttons*/
 .buttons {
   grid-row: 6/7;

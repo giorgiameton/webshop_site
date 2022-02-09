@@ -193,7 +193,9 @@ main a {
   font-weight: bolder;
   justify-self: right;
 }
-
+.newPrice {
+  color: #faabfa;
+}
 /*small horizontal screens*/
 
 @media only screen and (min-width: 550px) {

@@ -21,4 +21,19 @@ function showProduct(product) {
   document.querySelector(
     ".product"
   ).style.backgroundImage = `url("https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp")`;
+
+  if (product.soldout) {
+    document.querySelector("#sold").classList.add("soldOut");
+    document.querySelector("#sold").textContent = "SOLD OUT";
+  }
+
+  if (product.discount) {
+    // console.log(true);
+    document.querySelector("#onSale").classList.add("sale");
+    document.querySelector("#onSale").textContent = `${product.discount} % off`;
+    document.querySelector(".price").classList.add("newPrice");
+    document.querySelector(".price").textContent =
+      Math.ceil(product.price - (product.price / 100) * product.discount) +
+      " DKK";
+  }
 }
