@@ -9,47 +9,48 @@
   </head>
   <body>
     <header>
-      <div id="popUp" class="hide"> 
+      <div id="popUp" class="hide">
         <figure id="logo-negative">
-          <img src="assets/logo-negative.svg" alt="logo-negative">
-      </figure>
-      <nav>
-        <ul>
-          <li><a href="a">home</a></li>
-          <li><a href="category.html">shop</a></li>
-          <li><a href="a">cart</a></li>
-        </ul>
-      </nav> 
-      <figure id="cross">
-        <img src="assets/cross.svg" alt="cross">
+          <img src="assets/logo-negative.svg" alt="logo-negative" />
         </figure>
-        </div>
+        <nav>
+          <ul>
+            <li><a href="a">home</a></li>
+            <li><a href="category.html">shop</a></li>
+            <li><a href="a">cart</a></li>
+          </ul>
+        </nav>
+        <figure id="cross">
+          <img src="assets/cross.svg" alt="cross" />
+        </figure>
+      </div>
       <div id="navbar">
-      <nav>
-        <figure id="logo">
-          <img src="assets/logo.svg" alt="logo" />
-        </figure>
-        <figure id="menu">
-          <img src="assets/menu.svg" alt="menu-icon" />
-        </figure>
-      </nav>
-    
-      <p>
-        <a href="a">home></a><a href="a">shop></a><a href="category.html">categories></a>
-      </p>
-    </div>
+        <nav>
+          <figure id="logo">
+            <img src="assets/logo.svg" alt="logo" />
+          </figure>
+          <figure id="menu">
+            <img src="assets/menu.svg" alt="menu-icon" />
+          </figure>
+        </nav>
+
+        <p>
+          <a href="a">home></a><a href="a">shop></a
+          ><a href="category.html">categories></a>
+        </p>
+      </div>
     </header>
     <main>
       <h1>categories</h1>
       <ul>
-        <li>
-         <div class="category"> 
-           <a href="productList.html"
-            >
+        <template class="categoryTemplate">
+          <li class="category">
+            <a href="productList.html">
               <p>apparel ></p>
-            </div>
-          </a>
-        </li>
+            </a>
+          </li>
+        </template>
+        <!--</li>
         <li>
           <div class="category"><a href="productList.html"
             >
@@ -70,10 +71,11 @@
               <p>personal care ></p>
             </div></a
           >
-        </li>
+        </li>-->
       </ul>
     </main>
     <footer></footer>
     <script src="js/myscript.js"></script>
+    <script src="js/category.js"></script>
   </body>
 </html>
