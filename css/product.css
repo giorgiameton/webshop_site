@@ -57,7 +57,7 @@ header {
 }
 
 #navbar a {
-  color: #ffb564;
+  color: #4d87c9;
   font-size: 3.5vw;
 }
 #navbar p {
@@ -65,7 +65,7 @@ header {
   padding-top: 2%;
 }
 #navbar a:hover {
-  color: #faabfa;
+  color: #60a8ec;
 }
 #navbar a:active {
   color: white;
@@ -76,7 +76,7 @@ header {
   visibility: hidden;
 }
 #popUp {
-  background-color: #faabfa;
+  background-color: #60a8ec;
   width: 110%;
   position: relative;
   left: -15%;
@@ -163,7 +163,7 @@ main a {
 }
 .sale {
   padding: 5% 10% 5% 5%;
-  background-color: #faabfa;
+  background-color: #60a8ec;
   color: white;
 }
 .productText {
@@ -173,7 +173,7 @@ main a {
   grid-template-columns: auto auto;
 }
 .soldOut {
-  color: #ffb564;
+  color: #4d87c9;
   font-weight: bolder;
   grid-column: 1/3;
   margin-bottom: 3%;
@@ -193,7 +193,7 @@ main a {
   justify-self: right;
 }
 .newPrice {
-  color: #faabfa;
+  color: #60a8ec;
 }
 /*buttons*/
 .buttons {
@@ -203,14 +203,14 @@ main a {
   margin-bottom: 10%;
 }
 .buttons p {
-  background-color: #ffb564;
+  background-color: #4d87c9;
   color: white;
   text-align: center;
   padding: 5%;
   margin-top: 5%;
 }
 .buttons p:hover {
-  background-color: #faabfa;
+  background-color: #60a8ec;
 }
 .buttons p:active {
   background-color: white;
@@ -279,6 +279,9 @@ main a {
   }
   p {
     font-size: 1.5vw;
+  }
+  .brand {
+    font-size: 1.7vw;
   }
   .price {
     font-size: 2.5vw;
