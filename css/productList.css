@@ -264,7 +264,7 @@ main a {
   main ul {
     margin-top: 2%;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 10%;
     row-gap: 5%;
   }
@@ -313,6 +313,7 @@ main a {
   }
   main ul {
     row-gap: 0%;
+    grid-template-columns: repeat(4, 1fr);
   }
   main li {
     height: 50%;
@@ -322,12 +323,12 @@ main a {
     font-size: 2.7vw;
   }
   h2 {
-    font-size: 2vw;
+    font-size: 1.7vw;
   }
   p {
-    font-size: 1vw;
+    font-size: 0.9vw;
   }
   .price {
-    font-size: 1.5vw;
+    font-size: 1.15vw;
   }
 }
