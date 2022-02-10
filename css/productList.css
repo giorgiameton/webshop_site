@@ -205,6 +205,34 @@ main a {
   font-weight: bolder;
   justify-self: right;
 }
+
+/*footer*/
+footer {
+  background-color: #60a8ec;
+  padding: 2% 10% 5% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer nav {
+  display: flex;
+
+  gap: 5%;
+}
+footer a {
+  color: white;
+  margin: 0;
+  font-size: 0.8rem;
+}
+footer a:hover {
+  font-weight: bolder;
+}
+.logoFooter {
+  padding-top: 5%;
+  width: 20%;
+  margin: 0;
+}
+
 /*small horizontal screens*/
 
 @media only screen and (min-width: 650px) {
@@ -272,6 +300,17 @@ main a {
   }
   .product {
     margin: 0%;
+  }
+
+  /*footer*/
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logoFooter {
+    padding: 0%;
+    width: 10%;
   }
 }
 

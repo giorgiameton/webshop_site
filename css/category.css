@@ -128,7 +128,7 @@ header {
 }
 /*main*/
 main {
-  margin: 5% 10% 0 10%;
+  margin: 5% 10% 10% 10%;
 }
 
 main ul {
@@ -159,6 +159,32 @@ main a p:active {
   background-color: #60a8ec;
   padding: 0% 0 0% 2%;
   opacity: 40%;
+}
+/*footer*/
+footer {
+  background-color: #60a8ec;
+  padding: 2% 10% 5% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer nav {
+  display: flex;
+
+  gap: 5%;
+}
+footer a {
+  color: white;
+  margin: 0;
+  font-size: 0.8rem;
+}
+footer a:hover {
+  font-weight: bolder;
+}
+.logoFooter {
+  padding-top: 5%;
+  width: 20%;
+  margin: 0;
 }
 
 /*small horizontal screens*/
@@ -212,6 +238,17 @@ main a p:active {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 5%;
+  }
+
+  /*footer*/
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logoFooter {
+    padding: 0%;
+    width: 10%;
   }
 }
 
