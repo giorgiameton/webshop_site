@@ -12,7 +12,7 @@ body {
 h1 {
   font-family: Abril Fatface, Times New Roman, serif;
   font-weight: lighter;
-  font-size: 7vw;
+  font-size: 2rem;
   margin: 0;
 }
 h2 {
@@ -20,11 +20,11 @@ h2 {
   margin: 0;
   font-family: Abril Fatface, Times New Roman, serif;
   font-weight: lighter;
-  font-size: 5.5vw;
+  font-size: 1.5rem;
 }
 p {
   font-family: Poppins, arial, sans-serif;
-  font-size: 5vw;
+  font-size: 1.2rem;
   margin: 0;
 }
 /*header*/
@@ -63,7 +63,7 @@ header {
   color: #4d87c9;
 }
 #navbar p {
-  font-size: 3.5vw;
+  font-size: 0.9rem;
   padding-top: 2%;
 }
 #navbar a:hover {
@@ -131,7 +131,7 @@ header {
   text-decoration: none;
   color: white;
   font-family: Poppins, arial, sans-serif;
-  font-size: 3vw;
+  font-size: 0.8rem;
 }
 #popUp a:hover {
   font-weight: bolder;
@@ -217,9 +217,7 @@ main a {
   #menu {
     width: 15%;
   }
-  #navbar a {
-    font-size: 1.5vw;
-  }
+
   #navbar p {
     margin: 0;
   }
@@ -241,7 +239,7 @@ main a {
     padding-top: 5%;
   }
   #popUp a {
-    font-size: 2vw;
+    font-size: 1rem;
   }
   #logo-negative {
     width: 50%;
@@ -251,15 +249,13 @@ main a {
   main {
     margin-top: -12%;
   }
-  h1 {
-    font-size: 4vw;
-  }
+
   h2 {
-    font-size: 2.5vw;
+    font-size: 1.2rem;
     padding-bottom: 3%;
   }
   p {
-    font-size: 1.5vw;
+    font-size: 0.8rem;
   }
   main ul {
     margin-top: 2%;
@@ -272,7 +268,7 @@ main a {
     transform: scale(1.1, 1.1);
   }
   .price {
-    font-size: 2vw;
+    font-size: 1.2rem;
   }
   .product {
     margin: 0%;
@@ -288,9 +284,7 @@ main a {
   #menu {
     width: 12%;
   }
-  #navbar a {
-    font-size: 1.2vw;
-  }
+
   #navbar p {
     margin-top: 2%;
   }
@@ -300,9 +294,7 @@ main a {
     row-gap: 60%;
     padding-bottom: 15%;
   }
-  #popUp a {
-    font-size: 1.5vw;
-  }
+
   #logo-negative {
     width: 40%;
   }
@@ -318,17 +310,5 @@ main a {
   main li {
     height: 50%;
     width: auto;
-  }
-  h1 {
-    font-size: 2.7vw;
-  }
-  h2 {
-    font-size: 1.7vw;
-  }
-  p {
-    font-size: 0.9vw;
-  }
-  .price {
-    font-size: 1.15vw;
   }
 }

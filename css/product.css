@@ -12,14 +12,14 @@ body {
 h1 {
   font-family: Abril Fatface, Times New Roman, serif;
   font-weight: lighter;
-  font-size: 7vw;
+  font-size: 2rem;
   margin: 0;
   margin-bottom: 3%;
 }
 
 p {
   font-family: Poppins, arial, sans-serif;
-  font-size: 5.5vw;
+  font-size: 1rem;
   margin: 0;
 }
 /*header*/
@@ -58,10 +58,9 @@ header {
 
 #navbar a {
   color: #4d87c9;
-  font-size: 3.5vw;
+  font-size: 0.9rem;
 }
 #navbar p {
-  font-size: 4vw;
   padding-top: 2%;
 }
 #navbar a:hover {
@@ -129,7 +128,7 @@ header {
   text-decoration: none;
   color: white;
   font-family: Poppins, arial, sans-serif;
-  font-size: 3vw;
+  font-size: 0.8rem;
 }
 #popUp a:hover {
   font-weight: bolder;
@@ -227,9 +226,7 @@ main a {
   #menu {
     width: 15%;
   }
-  #navbar a {
-    font-size: 1.5vw;
-  }
+
   #navbar p {
     margin: 0;
     padding: 0;
@@ -252,7 +249,7 @@ main a {
     padding-top: 5%;
   }
   #popUp a {
-    font-size: 2vw;
+    font-size: 1rem;
   }
   #logo-negative {
     width: 50%;
@@ -270,21 +267,14 @@ main a {
     height: 80%;
     width: auto;
   }
-  h1 {
-    font-size: 3.5vw;
-  }
+
   .soldOut {
-    font-size: 2vw;
+    font-size: 1.2rem;
     margin: 0;
   }
-  p {
-    font-size: 1.5vw;
-  }
-  .brand {
-    font-size: 1.7vw;
-  }
+
   .price {
-    font-size: 2.5vw;
+    font-size: 1.2rem;
   }
   .productText {
     margin-top: 0;
@@ -313,9 +303,7 @@ main a {
   #menu {
     width: 12%;
   }
-  #navbar a {
-    font-size: 1.2vw;
-  }
+
   #navbar p {
     margin-top: 2%;
   }
@@ -337,21 +325,18 @@ main a {
     margin-top: -12%;
   }
   h1 {
-    font-size: 2.7vw;
+    font-size: 2.2rem;
     margin: 0;
   }
   .soldOut {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
   }
-  p {
-    font-size: 1vw;
-    margin: 0;
-  }
+
   .brand {
     align-self: end;
   }
   .price {
-    font-size: 1.7vw;
+    font-size: 1.5rem;
   }
   .product {
     height: 60%;
