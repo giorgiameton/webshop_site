@@ -1,8 +1,8 @@
-/*const urlParams = new URLSearchParams(window.location.search);
+const urlParams = new URLSearchParams(window.location.search);
 const category = urlParams.get("category");
-const url = "https://kea-alt-del.dk/t7/api/products/" + category;*/
+const url = "https://kea-alt-del.dk/t7/api/products?category=" + category;
 
-const url = "https://kea-alt-del.dk/t7/api/products";
+/*const url = "https://kea-alt-del.dk/t7/api/products";*/
 
 fetch(url)
   .then(function (res) {

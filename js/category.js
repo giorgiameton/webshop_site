@@ -20,6 +20,10 @@ function showProduct(product) {
   const template = document.querySelector(".categoryTemplate").content;
   const clone = template.cloneNode(true);
 
+  clone
+    .querySelector("a")
+    .setAttribute("href", `productList.html?category=${product.category}`);
+
   clone.querySelector(".category p").textContent = `${product.category} >`;
   const parent = document.querySelector("main ul");
   parent.appendChild(clone);
